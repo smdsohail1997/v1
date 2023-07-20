@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Website Data Scraping</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Projects</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Overview</a></li>
+							<li><a href="Project_01.html">Project 1</a></li>
+							<li class="active"><a href="Project_02.html">Project 2</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>DATA SCRAPING TO EXCEL<br />
+										USING PYTHON
+</h1>
+								
+								</header>
+								<p><b>Project Overview:</b></br> In this project, I undertook the task of collecting essential information about KNX partners, including 
+									Company_Name, City, Address, Person_Name, Telefon, Handy, and Website. The challenge was that the email information
+									was not available, necessitating the extraction of email addresses from the complex nested HTML structure of the respective  websites.</p>
+
+								<div class="image main"><img src="images/KNX website.png" alt="" /></div>
+								<p><b>Project Objectives:</b></br>1. Collect Company_Name, City, Address, Person_Name, Telefon, Handy, and Website information of KNX partners and store them in an Excel sheet.</br>2. Develop a solution to extract email addresses from the complex nested HTML structure of KNX partner websites.</p>
+								<p><b>Project Implementation:</b></br><b>1.Data Collection:</b></br><ul><li>Created a custom web scraper to extract data from the KNX partner's website</br> (https://www.knx.org/knx-de/fuer-fachleute/community/partner/).<li>Utilized Python's BeautifulSoup and requests libraries to navigate and extract relevant information from the complex HTML structure</li><div class="image main"><img src="images/code.png" alt="" /></div><li>Successfully collected Company_Name, City, Address, Person_Name, Telefon, Handy, and Website details and stored them in an organized Excel sheet.</li><div class="image main"><img src="images/Excel.png" alt="" /></div></ul></b></br><b>2.Email Extraction:</b></br><ul><li>Developed a separate algorithm to extract email addresses from the KNX partner's websites.</li><li>Utilized regular expressions and string manipulation techniques to locate and capture email addresses from the nested HTML content.</li><li>Implemented error handling and validation to ensure accurate email extraction.</li></p>
+								<p><b>Challenges and Solutions:</b></br><ul><li>Complex HTML Structure: The nested HTML structure of the websites posed a challenge in extracting specific data. I addressed this by carefully analyzing the DOM hierarchy and using appropriate tags and classes to navigate the content accurately.</li><li>Missing Email Information: Since the email information was not directly available in the KNX partner data, I had to implement a custom email extraction solution. Regular expressions and careful pattern matching helped in successfully capturing email addresses.</li><div class="image main"><img src="images/EMAIL SCRAPER CODE.png" alt="" /></div></ul></p>
+								<p><b>Results and Outcomes:</b></br><ul><li>Successfully collected and organized Company_Name, City, Address, Person_Name, Telefon, Handy, and Website information of numerous KNX partners in an Excel sheet.</li><li>Extracted email addresses from the respective websites and associated them with the corresponding partners in the Excel sheet.</li></ul></p><div class="image main"><img src="images/Full Excel.png" alt="" /></div>
+								<p><b>Tools and Technologies Used:</b></br><ul><li>Python programming language</li><li>BeautifulSoup and requests libraries for web scraping</li><li>Regular expressions for email extraction</li><li>Selenium for Handling Browser Elements</li><li>Microsoft Excel for data storage and organization</li></ul></p>
+								<p><b>Conclusion:</b></br>This project showcases my proficiency in web scraping, data collection, and data extraction from complex HTML structures. It also demonstrates problem-solving skills and the ability to create effective solutions for obtaining valuable information from web sources. The project's success in gathering and organizing data from KNX partners, along with the added capability of email extraction, highlights my expertise in handling real-world data challenges.</p>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+					<!--<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>-->
+					<!--	<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>Nadigadda<br />
+								Nandyal, 518501</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p>8639869245</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p>smdsohail1997@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				 Copyright 
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>-->
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
